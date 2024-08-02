@@ -1,0 +1,48 @@
+.product-card {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-details {
+  padding: 20px;
+}
+
+.product-title {
+  font-size: 1.8em;
+  color: #333;
+  font-family:Georgia, 'Times New Roman', Times, serif ;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  font-family: 'Courier New', Courier, monospace;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.product-link a {
+  color: #007bff;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+}
+
+.product-link a:hover {
+  text-decoration: underline;
+}
+
+.product-link a:active {
+  color: #0056b3;
+}

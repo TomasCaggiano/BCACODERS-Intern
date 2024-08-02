@@ -1,0 +1,78 @@
+.home{
+    background-image: url('/images/portfolio.jpg');    
+    background-size: cover; /* Ajusta la imagen para que cubra */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que se repita */
+    height: 100vh; 
+    display: flex;
+    min-height: 30rem;
+    flex-direction: row;
+}
+.home p{
+    padding-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 12px;
+}
+.home img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 25% ;
+}
+
+.home h1{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.home h2{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+@media (max-width : 768px) {
+    .home {
+        overflow: hidden;
+        padding-top: 10%;
+        min-height: 25rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home img{
+        margin-top: 3rem;
+    }
+    .home h1{
+        padding-top: 10%;
+        color: white;
+    }
+    
+    .home h2{
+        margin-top: 5rem;
+
+        color: white;
+    }
+    .home p{
+        width: 17rem;
+    }
+}
+
+@media(min-width:768px){
+    .home img{
+        margin-left: 25%;
+        margin-top: 10%;
+        margin-right: 8rem;
+        border: solid red 2px;
+    }
+    .home div{
+    padding-left:10%;
+    padding-top: 10%;
+    min-width: 25rem;
+}
+.home div h1{
+    padding-top: 10%;
+    color: white;
+}
+
+.home div h2{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    color: white;
+}
+}

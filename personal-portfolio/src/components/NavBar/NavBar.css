@@ -1,0 +1,25 @@
+.navbar a{
+    color: grey;
+    margin: 10px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+
+.nav1{
+    font-size: 30px;    
+}
+.me-auto a{
+    font-size: 20px;
+}
+
+@media(min-width: 768px){
+.me-auto{
+    margin-left: 25%;
+}
+}
