@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+
+.file-upload {
+  margin-bottom: 20px;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item {
+  margin: 10px;
+  text-align: center;
+}
+
+.photo-item img {
+  max-width: 300px;
+  height: auto;
+}
